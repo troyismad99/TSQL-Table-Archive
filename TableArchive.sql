@@ -3,7 +3,7 @@ Declare @SourceTable varchar(99) = 'dbo.Person'
        ,@NewOwner    varchar(99) = 'PersonArchive'
        ,@Criteria    varchar(99) = 'PersonID < 10';
 
-drop table #tempDependency;
+Drop Table #tempDependency;
 
 Create Table #TempDependency
 (
