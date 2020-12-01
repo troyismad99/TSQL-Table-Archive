@@ -1,1 +1,3 @@
 # TSQL-Table-Archive
+
+Script to generate a set of scripts to archive a table and its children, and the childrens children, and so on ....
